@@ -1,0 +1,58 @@
+.profile{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.profile-left{
+    width: 150px;
+    height: 150px;
+    margin-left: 2%;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.profile_right{
+    width: 80%;
+    margin: 0% 5%;
+}
+.flowers_box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.repo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag{
+    padding: 2px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.tag:hover{
+    color: rgb(19, 19, 235);
+}
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: red;
+}
+::-webkit-scrollbar-thumb{
+    width: auto;
+    background-color: blue;
+}
+.profile_right{
+    padding: 10px;
+    height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
